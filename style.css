@@ -1,0 +1,92 @@
+.section1{
+    width: 98;
+    margin: 1%;
+    border: 1px solid black;
+}
+.header-div{
+    width: 98%;
+    margin: 1%;
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+.main-div{
+    width: 98%;
+    border: 1px solid black;
+    display: flex;
+    margin: 1%;
+}
+
+.left-div{
+    width: 40%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 2%;
+}
+.right-div{
+    width: 40%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 2%;
+}
+#btn-div{
+    margin:  auto;
+}
+
+.target-currency-details{
+    width: 98%;
+    height: 280px;
+    border: 1px solid black;
+    margin: 1%;
+}
+#convert-btn,#swap-btn{
+    height:35px;
+    margin:  auto;
+    width: 100px;
+}
+#basecurrecny{
+margin-top: 4%;
+width: 90%;
+    height: 40px;
+    margin-left: 5%;
+}
+#from-amount{
+    width: 88%;
+    height: 40px;
+    margin-left: 5%;
+}
+#tocurrecny{
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 5%;
+    height: 40px;
+}
+#to-amount{
+    width: 87%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#basecurrency-error{
+    display: none;
+    margin-left: 22%;
+}
+
+#heading{
+    margin-left: 20px;
+    font-size: x-large;
+
+}
+
+#theme-btn{
+    margin-left: 780px;
+}
+
+#title{
+    margin-left: 50px;
+    font-size: 13px;
+}
+#result-title{
+    margin: 1%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script .js"></script>
+  </head>
+
+  <body id="body">
+    <div class="header-div">
+      <span id="heading">Currency Converter Application</span>
+      <button id="theme-btn">Dark Mode</button>
+    </div>
+    <div class="section1">
+      <div class="main-div">
+        <div class="left-div">
+          <select name="basecurrecny" id="basecurrecny"></select>
+          <br /><br />
+          <input type="number" id="from-amount" placeholder="Amount" />
+          <span id="basecurrency-error">Please enter the amount</span>
+          <!-- <div class="base-currency-details"></div> -->
+        </div>
+        <div id="btn-div">
+          <button id="convert-btn">Convert</button>
+          <br /><br />
+          <button id="swap-btn">Swap</button>
+          <i class="bi bi-arrow-left-right" id="swap-btn"></i>
+        </div>
+        <div class="right-div">
+          <select name="tocurrecny" id="tocurrecny"></select>
+          <br /><br />
+          <input
+            type="text"
+            id="to-amount"
+            placeholder="Converted Amount"
+            disabled
+          />
+        </div>
+      </div>
+      <span id="result-title">Result: </span>
+      <div class="target-currency-details"></div>
+    </div>
+  </body>
+</html>
